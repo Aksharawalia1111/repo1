@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>informtion</title>
+</head>
+<style>
+  body{
+    background-color: honeydew;
+    text-align: center;
+    font-family: fantasy;
+  }
+  div{ 
+    color: thistle;
+    text-align: center;
+  }
+ img{
+    position:absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    z-index: -1;
+ }
+
+
+</style>
+<body>
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/007/885/474/small/mid-century-modern-mountain-art-print-abstract-contemporary-aesthetic-backgrounds-landscapes-illustration-of-mountain-tree-sky-and-sun-vector.jpg" alt="image" width=100%>
+    <div>
+        <h1>REGISTER NOW</h1>
+    </div>
+    <p>Fill the form to proceed</p>
+    <form action="/action_page.php">
+        <label for="fname">Name</label>:</label>
+        <input type="text" id="fname" name="fname">
+        <br>
+        <br>
+        <label for="num">Age:</label>
+        <input type="number" id="num">
+        <br>
+        <br>
+        <label for="date">Joning date:</label>
+        <input type="date" id="date" >
+        <br>
+        <br>
+        <label for="email">Enter email:</label>
+        <input type="email" id="email">
+        <br>
+        <br>
+        <label for="mob">Contact Number:</label>
+        <input type="text" id="mob">
+        <p>Gender:</p>
+        <label for="gender">Male</label>
+        <input type="radio" name="gender" id="gender">
+        <label for="gender">Female</label>
+        <input type="radio" name="gender" id="gender">
+        <p>Select the following you are interseted in: </p>
+        <input list="hobbies" name="hobbies">
+        <datalist id="hobbies">
+                <option value="Dance">
+                <option value="Singing">
+                <option value="Sports">
+                <option value="Art n Craft">
+        </datalist>
+
+        <p><input type="submit" ></p>
+    </form>
+    <p>Note: Already registered , please sign/login here.</p>
+    <a href="/login.html">LOGIN</a>
+
+</body>
+</html>
